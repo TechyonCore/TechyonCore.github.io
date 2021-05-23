@@ -10,13 +10,13 @@ body {
     background-color: rgb(0, 0, 82);
     overflow-y: hidden;
   }
-  @media screen and (max-width: 600px) {
-      body{
-          padding: 0;
-          margin: 0;
-      }
+@media screen and (max-width: 600px) {
+  body{
+    padding: 0;
+    margin: 0;
   }
-  body::-webkit-scrollbar{
+}
+body::-webkit-scrollbar{
     display: none;
 }
   .topnav {
@@ -188,22 +188,23 @@ body {
   }
   @media screen and (max-width: 600px) {
     .slide{
-        background-color: white;
+        background-color: blanchedalmond;
         transform: skewX(-0deg);
         width: 100vw;
     }
     .webinar{
-        height: 88vh;
+        height: auto;
         width: 100vw;
         background-color:blanchedalmond;
-        padding: 5vh;
+        padding: 3vh;
+        padding-top: 1vh;
         text-align: center;
       }
       .coding{
-        height: 88vh;
+        height: auto;
         width: 100vw;
         background-color: blanchedalmond;
-        padding: 5vh;
+        padding: 3vh;
         text-align: center;
       }
       .events h1{
